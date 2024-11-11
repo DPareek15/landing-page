@@ -17,7 +17,6 @@ import Link from 'next/link';
 export default function Home() {
   return (
     <div className="min-h-screen bg-white text-gray-800">
-      {/* Header */}
       <div className="bg-blue-200">
         <p className="text-center text-black text-xl font-bold py-4">
           Learn coding at the nearby{' '}
@@ -27,10 +26,9 @@ export default function Home() {
           </Link>
         </p>
       </div>
-      {/* Navbar */}
+
       <Navbar />
 
-      {/* Hero Section */}
       <Hero />
 
       <Features />

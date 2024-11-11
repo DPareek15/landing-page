@@ -6,7 +6,7 @@ import { ArrowRight } from 'lucide-react';
 const Footer = () => {
   return (
     <footer className=" bg-gradient-to-b from-blue-700 to-blue-500 text-white py-16 mt-16 flex flex-row justify-center items-center">
-      <div className="container mx-auto flex flex-col justify-center items-start gap-4 px-24">
+      <div className="container mx-auto flex flex-col justify-center items-start gap-4 pl-24">
         <h1 className="text-white text-3xl">Let&apos;s keep in touch!</h1>
         <p className="text-white text-sm">
           Request a CodingPro Institute enquiry!{' '}

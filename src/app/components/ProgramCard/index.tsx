@@ -27,9 +27,11 @@ const ProgramCard = ({ image, title, description }: Props) => {
           cutting hardware and maintenance costs.
         </p>
 
-        <button className="bg-blue-600 text-white px-6 py-2 rounded-full hover:bg-blue-700 justify-self-end">
-          Explore <ChevronRight className="inline ml-2" />
-        </button>
+        <div className="flex flex-row justify-end items-end w-full px-4">
+          <button className="bg-blue-600 text-white px-6 py-2 rounded-full hover:bg-blue-700 justify-self-end">
+            Explore <ChevronRight className="inline ml-2" />
+          </button>
+        </div>
       </div>
     </div>
   );

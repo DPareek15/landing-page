@@ -20,13 +20,13 @@ const TestimonialCard = ({ icon, name, role, text }: Props) => {
           className="relative -top-8 rounded-full mx-auto mb-4"
         />
         <div className="flex flex-row">
-          <div className="text-blue-400 text-7xl relative -top-5">"</div>
+          <div className="text-blue-400 text-7xl relative -top-5">&quot;</div>
           <div className="flex flex-col justify-center items-center">
             <p className="text-lg italic mb-4">{text}</p>
             <p className="text-2xl text-blue-700">{name}</p>
             <p className="text-sm text-blue-700">{role}</p>
           </div>
-          <div className="text-blue-400 text-7xl relative top-32">"</div>
+          <div className="text-blue-400 text-7xl relative top-32">&quot;</div>
         </div>
       </div>
     </div>
